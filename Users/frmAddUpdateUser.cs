@@ -329,7 +329,6 @@ namespace CarRentalManagementSystem.Users
                 MessageBox.Show("Some fields are not valid , please put the mouse over the red icon(s) to see the error", "Validation Error!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
             SaveUserData();
         }
 
